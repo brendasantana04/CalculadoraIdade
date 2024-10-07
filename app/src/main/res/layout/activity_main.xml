@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Idade"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dia"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mês"
+        android:inputType="number"
+        android:layout_below="@id/editTextDia"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editTextAno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ano"
+        android:inputType="number"
+        android:layout_below="@id/editTextMes"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Idade"
+        android:layout_below="@id/editTextAno"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonCalcular"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+</RelativeLayout>
