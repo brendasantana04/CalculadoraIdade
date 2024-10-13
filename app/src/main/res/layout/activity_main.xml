@@ -16,14 +16,14 @@
     <EditText
         android:id="@+id/editTextDia"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Dia"
         android:inputType="number" />
 
     <EditText
         android:id="@+id/editTextMes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Mês"
         android:inputType="number"
         android:layout_below="@id/editTextDia"
@@ -32,7 +32,7 @@
     <EditText
         android:id="@+id/editTextAno"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:hint="Ano"
         android:inputType="number"
         android:layout_below="@id/editTextMes"
@@ -53,4 +53,11 @@
         android:layout_below="@id/buttonCalcular"
         android:layout_marginTop="16dp"
         android:textSize="18sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="132dp"
+        android:text="BRENDA SANTANA - 1110482313042" />
 </RelativeLayout>
